@@ -50,7 +50,7 @@ angular.module('wikicatwkApp')
 				    	var resources = pageInfo.substring(0,pageInfo.indexOf('}}'));
 				    	var aryResource = resources.split('|');
 				    	
-				    	//LAST AND FIRST RESOURCES CANNOT BE DELIMITED AND ARE REMOVED
+				    	//LAST AND FIRST RESOURCES CANNOT BE DELIMITED AND SHOULD BE REMOVED
 				    	aryResource.shift();
 				    	aryResource.pop();
 				    	////////////////////////////////////////////////////
