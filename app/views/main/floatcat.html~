@@ -1,0 +1,1 @@
+<div id="inner{{id}}" style="background-image:url({{imgURL}}); height:{{imgHeight}}px; width:{{imgWidth}}px;" class="floatcat" ng-click="catClick()"></div>
